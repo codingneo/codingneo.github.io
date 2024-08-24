@@ -1,9 +1,16 @@
 ## Text2SQL for Analytics with LLM
 
 ### Introduction
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+With the recent breakthrough of Large Language Model (LLM), the capability of converting the questions in natural language to the Structured Query Language (SQL) has drawn attentions from both industry and research community. It is because  
 
+#### Prompt
+A good prompt template for _Text2SQL_** is as this:
 If the file does not start with a header, then the post title will be derived from the filename.
+
+```python
+### Instructions:
+Provide the system prompt (e.g. you are a business analyst expert in xxx domain and familiar with SQL)
+```
 
 This is a sample blog post. You can talk about all sorts of fun things here.
 
