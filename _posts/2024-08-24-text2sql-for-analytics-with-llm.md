@@ -13,6 +13,7 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 #### Surveys
 1. Zijin Hong, Zheng Yuan, Qinggang Zhang, Hao Chen, Junnan Dong, Feiran Huang, and Xiao Huang, Next-Generation Interfaces: A Survey of LLM-based Text-to-SQL, 2024-arXiv. [[paper](https://arxiv.org/html/2406.08426)]
 2. Liang Shi, Zhengju Tang, Man Zhang, xiaotong Zhang and Zhi Yang, A Survey on Employing Large Language Models for Text-to-SQL Tasks, 2024-arXiv. [[paper](https://arxiv.org/pdf/2407.15186)]
+3. Weixu Zhang, Yifei Wang, Yuanfeng Song, Victor Junqiu Wei, Yuxing Tian, Yiyan Qi, Jonathan H. Chan, Raymond Chi-Wing Wong and Haiqin Yang, Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey, 2023-arXiv. [[paper](https://arxiv.org/abs/2310.17894)]
 
 #### Papers
 1. Xuemei Dong, Chao Zhang, Yuhang Ge, Yuren Mao, Yunjun Gao, Lu Chen, Jinshu Lin and Dongfang Lou, C3: Zero-shot Text-to-SQL with ChatGPT, 2023-arXiv. [[paper](https://arxiv.org/pdf/2307.07306)]
