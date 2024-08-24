@@ -16,9 +16,9 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 #### Papers
 1. Xuemei Dong, Chao Zhang, Yuhang Ge, Yuren Mao, Yunjun Gao, Lu Chen, Jinshu Lin and Dongfang Lou, C3: Zero-shot Text-to-SQL with ChatGPT, 2023-arXiv. [[paper](https://arxiv.org/pdf/2307.07306)]
 2. Karime Maamari, Fadhil Abubaker, Daniel Jaroslawicz and Amine Mhedhbi, The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models, 2024-arXiv. [[paper](https://arxiv.org/abs/2408.07702)]
-#### Github Repo
-1. [eosphoros-ai/Awesome-Text2SQL](https://github.com/eosphoros-ai/Awesome-Text2SQL)
-2. 
+#### Collections
+1. [github.com/eosphoros-ai/Awesome-Text2SQL](https://github.com/eosphoros-ai/Awesome-Text2SQL)
+2. [paperswithcode.com/task/text-to-sql](https://paperswithcode.com/task/text-to-sql)
 
 ```tsql
 SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
