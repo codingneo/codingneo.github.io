@@ -1,5 +1,6 @@
 ## Text2SQL for Analytics with LLM
 
+### Introduction
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
 
 If the file does not start with a header, then the post title will be derived from the filename.
@@ -9,11 +10,15 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 ---
 
 ### Reference
-#### Survey
-1. Zijin Hong, Zheng Yuan, Qinggang Zhang, Hao Chen, Junnan Dong, Feiran Huang, and Xiao Huang, Next-Generation Interfaces: A Survey of LLM-based Text-to-SQL, 2024-arXiv. [paper](https://arxiv.org/html/2406.08426)
-2. Liang Shi, Zhengju Tang, Man Zhang, xiaotong Zhang and Zhi Yang, A Survey on Employing Large Language Models for Text-to-SQL Tasks, 2024-arXiv. [paper](https://arxiv.org/pdf/2407.15186)
+#### Surveys
+1. Zijin Hong, Zheng Yuan, Qinggang Zhang, Hao Chen, Junnan Dong, Feiran Huang, and Xiao Huang, Next-Generation Interfaces: A Survey of LLM-based Text-to-SQL, 2024-arXiv. [[paper](https://arxiv.org/html/2406.08426)]
+2. Liang Shi, Zhengju Tang, Man Zhang, xiaotong Zhang and Zhi Yang, A Survey on Employing Large Language Models for Text-to-SQL Tasks, 2024-arXiv. [[paper](https://arxiv.org/pdf/2407.15186)]
+#### Papers
+1. Xuemei Dong, Chao Zhang, Yuhang Ge, Yuren Mao, Yunjun Gao, Lu Chen, Jinshu Lin and Dongfang Lou, C3: Zero-shot Text-to-SQL with ChatGPT, 2023-arXiv. [[paper](https://arxiv.org/pdf/2307.07306)]
+2. Karime Maamari, Fadhil Abubaker, Daniel Jaroslawicz and Amine Mhedhbi, The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models, 2024-arXiv. [[paper](https://arxiv.org/abs/2408.07702)]
 #### Github Repo
-
+1. [eosphoros-ai/Awesome-Text2SQL](https://github.com/eosphoros-ai/Awesome-Text2SQL)
+2. 
 
 ```tsql
 SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
