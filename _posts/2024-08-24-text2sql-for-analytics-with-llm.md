@@ -1,7 +1,9 @@
 ## Text2SQL for Analytics with LLM
 
 ### Introduction
-With the recent breakthrough of Large Language Model (LLM), the capability of converting the questions in natural language to the Structured Query Language (SQL) has drawn attentions from both industry and research community. It is because  
+With the recent breakthrough of Large Language Model (LLM), the capability of converting the questions in natural language to the Structured Query Language (SQL) has drawn attentions from both industry and research community. This application has quite significant business values because more and more enterprises are becoming or want to be more data-driven.
+
+
 
 #### Prompt
 A good prompt template for _Text2SQL_** is as this:
@@ -9,10 +11,23 @@ If the file does not start with a header, then the post title will be derived fr
 
 ```python
 ### Instructions:
-Provide the system prompt (e.g. you are a business analyst expert in xxx domain and familiar with SQL)
-```
+Provide the system prompt (e.g. you are a business analyst expert
+in xxx domain and familiar with SQL)
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+### Dialects:
+Specify the SQL dialect (e.g. MySQL,PostgreSQL, Bigquery etc. )
+
+### Context:
+Provide the database schema including table names & descriptions,
+column names & descriptions, and data types etc.)
+
+### Input:
+Provide user's query (may enriched by intents etc. by LLM)
+
+### Response:
+Expected SQL query ouptut based on the input and context.
+```
+There are multiple components inside
 
 ---
 
