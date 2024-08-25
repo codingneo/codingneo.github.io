@@ -1,7 +1,9 @@
 ## Text2SQL for Analytics with LLM
 
 ### Introduction
-With the recent breakthrough of Large Language Model (LLM), the capability of converting the questions in natural language to the Structured Query Language (SQL) has drawn attentions from both industry and research community. This application has quite significant business values because more and more enterprises are becoming or want to be more data-driven.
+With the recent breakthrough of Large Language Model (LLM), the capability of converting the questions in natural language to the Structured Query Language (SQL) has drawn attentions from both industry and research community. This application has quite significant business values because more and more enterprises are becoming or want to be more data-driven. But on the other side, there are few challenges to enable this:
+* The cost of owning and runing a large team of analysts to fulfill the increasing demand of analysis is not cheap;
+* It is relatively hard to find the 'good' analysts good in both business and technical. If technical aspect of analysts can be handled by AI, analysts can focus on more on business aspect.
 
 
 
