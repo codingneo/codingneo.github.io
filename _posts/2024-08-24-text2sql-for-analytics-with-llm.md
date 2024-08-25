@@ -5,10 +5,11 @@ With the recent breakthrough of Large Language Model (LLM), the capability of co
 * The cost of owning and runing a large team of analysts to fulfill the increasing demand of analysis is not cheap;
 * It is relatively hard to find the 'good' analysts good in both business and technical. If technical aspect of analysts can be handled by AI, analysts can focus on more on business aspect.
 
-
+### Workflow
+![alt text](https://github.com/codingneo/codingneo.github.io/raw/master/_images/text2sql_flow.png "A typical Text2SQL workflow comparised of retrieval, generation and correction stages")
 
 #### Prompt
-A good prompt template for _Text2SQL_** is as this:
+A good prompt template for **_Text2SQL_** is as this:
 If the file does not start with a header, then the post title will be derived from the filename.
 
 ```python
