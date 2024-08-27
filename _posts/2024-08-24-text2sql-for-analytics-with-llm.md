@@ -13,7 +13,7 @@ If this problem can reach tothe human-level performance, we then have a
 ### Retrieval Stage
 This step tries to retrieve as much as possible the most relevant context for LLM. It may includes: 
 * **Schema Linking**: instead of provide the full schema of the database, one idea is to apply the idea of Retrieval Augmented Generation (RAG) to __only__ retrive the relevant tables/columns as the context.
-* **Query Examples**: if you store the historical data about the pair of (questions, SQL query), one idea is to provide few-shot examples to LLM on similar questions
+* **Similar Query Examples**: if you store the historical data about the pair of (questions, SQL query), one idea is to provide few-shot examples to LLM on similar questions
 
 
 #### Prompt
