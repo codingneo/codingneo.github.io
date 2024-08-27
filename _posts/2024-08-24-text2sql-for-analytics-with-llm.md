@@ -5,8 +5,16 @@ With the recent breakthrough of Large Language Model (LLM), the capability of co
 * The cost of owning and runing a large team of analysts to fulfill the increasing demand of analysis is not cheap;
 * It is relatively hard to find the 'good' analysts good in both business and technical. If technical aspect of analysts can be handled by AI, analysts can focus on more on business aspect.
 
+If this problem can reach tothe human-level performance, we then have a 
+
 ### Workflow
 ![alt text](https://github.com/codingneo/codingneo.github.io/raw/main/_images/text2sql_flow.png "A typical Text2SQL workflow comparised of retrieval, generation and correction stages")
+
+### Retrieval Stage
+This step tries to retrieve as much as possible the most relevant context for LLM. It may includes: 
+* Schema Linking**: instead of provide the full schema of the database, one idea is to apply the idea of retrieval to __only__ retrive the relevant tables/columns as the context.
+* 
+
 
 #### Prompt
 A good prompt template for **_Text2SQL_** is as this:
@@ -30,7 +38,7 @@ Provide user's query (may enriched by intents etc. by LLM)
 ### Response:
 Expected SQL query ouptut based on the input and context.
 ```
-There are multiple components inside
+There are multiple components insides the above prompt template. 
 
 ---
 
